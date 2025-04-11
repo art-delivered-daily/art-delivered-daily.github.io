@@ -3,12 +3,10 @@ topmenu:
 
 - title: Home
   url: ""
-  class: "ml-2 btn btn-dark text-white px-3"
   external: false
 
 - title: Archive
   url: "archive/"
-  class: "ml-2 btn btn-dark text-white px-3"
   external: false
 
 # Footer Menu
