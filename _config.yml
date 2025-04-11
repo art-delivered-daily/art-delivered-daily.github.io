@@ -1,8 +1,8 @@
 title: "Art Delivered Daily"
 email: artdelivereddaily@gmail.com
 timezone: UTC
-baseurl: "https://art-delivered-daily.github.io/"
-permalink: "https://art-delivered-daily.github.io/"
+baseurl: "https://art-delivered-daily.github.io"
+permalink: "https://art-delivered-daily.github.io"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 30
