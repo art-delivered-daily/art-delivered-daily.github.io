@@ -1,5 +1,5 @@
 title: "Art Delivered Daily"
-email: artdelivereddaily@gmail.com
+email: art.delivered.daily@gmail.com
 timezone: UTC
 baseurl: "https://art-delivered-daily.github.io"
 permalink: "https://art-delivered-daily.github.io"
@@ -22,7 +22,7 @@ ganalytics: UA-113961478-1
 
 # Social
 social:
-  email: artdelivereddaily@gmail.com
+  email: art.delivered.daily@gmail.com
 
 # Plugins
 plugins: 
