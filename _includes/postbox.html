@@ -9,7 +9,11 @@
         <div class="metafooter">
             <div class="wrapfooter small d-flex align-items-center">
                 <span class="author-meta">
-                By {{ post.artist }}            
+                {% if post.artist %}
+                By {{ post.artist }}
+                {% else %}
+                By Unknown Artist
+                {% endif %}
                 </span>               
                 <div class="clearfix"></div>
             </div>
