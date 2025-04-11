@@ -6,7 +6,7 @@ topmenu:
   external: false
 
 - title: Archive
-  url: "archive/"
+  url: "archive"
   external: false
 
 # Footer Menu
@@ -16,4 +16,4 @@ footermenu:
   url: ""
 
 - title: Archive
-  url: "archive/"
+  url: "archive"
