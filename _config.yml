@@ -3,7 +3,7 @@ email: art.delivered.daily@gmail.com
 timezone: UTC
 baseurl: "https://art-delivered-daily.github.io"
 permalink: "https://art-delivered-daily.github.io"
-logo: 'assets/images/vanGogh_Circle.png'
+logo: 'assets/images/favicon-32x32.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 30
 locale: en_us
