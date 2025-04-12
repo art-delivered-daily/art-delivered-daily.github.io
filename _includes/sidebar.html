@@ -3,7 +3,7 @@
         <h5><span>Artwork Type</span></h5>
         <div class="after-post-tags">
         {% for type in site.categories %}
-        <a href="{{ site.baseurl }}/categories#{{ type[0] | slugify }}" class="badge badge-pill badge-danger" style="font-size: 16px">{{ type[0] }}</a>
+        <a href="{{ site.baseurl }}/categories#{{ type[0] | slugify }}" class="badge badge-pill badge-warning" style="font-size: 12px">{{ type[0] }}</a>
         {% endfor %}
         </div>
     </div>
