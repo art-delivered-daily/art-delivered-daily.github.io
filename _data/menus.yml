@@ -5,8 +5,12 @@ topmenu:
   url: ""
   external: false
 
-- title: Categories
+- title: By Category
   url: "categories"
+  external: false
+
+- title: By Artist
+  url: "artists"
   external: false
 
 - title: Archive
@@ -21,6 +25,9 @@ footermenu:
 
 - title: Categories
   url: "categories"
+
+- title: Artists
+  url: "artists"
 
 - title: Archive
   url: "archive"
