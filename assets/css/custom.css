@@ -32,6 +32,7 @@ a.artic:hover {
   background-color: #86BBD8 !important;
   border: none !important;
   color: #000000 !important;
+  font-weight: 600;
 }
 
 .btn-primary:hover {
