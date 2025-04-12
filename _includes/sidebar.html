@@ -12,7 +12,7 @@
         <h5><span>View by Artist</span></h5>
         <div class="after-post-tags" style="text-align: center">
         {% for artist in site.tags %}
-        <a href="{{ site.baseurl }}/artists#{{ type[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 14px; text-overflow: ellipsis;">{{ artist[0] | }}</a>
+        <a href="{{ site.baseurl }}/artists#{{ type[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 14px">{{ artist[0] | truncatecharacters: 30}}</a>
         {% endfor %}
         </div>
     </div>
