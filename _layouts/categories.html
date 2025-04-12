@@ -6,7 +6,8 @@ permalink: "/categories.html"
 <div class="rounded mb-5 hero" style="background: #79C471">
   <div class="row align-items-center justify-content-between">
     <div style="text-align:left">
-        <h1>Explore by Category</h1>
+      <h1 class="font-weight-bold mb-4 serif-font">Art by Category</h1>
+      <br>
           {% for category in site.categories %}
           <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
           {% endfor %}
