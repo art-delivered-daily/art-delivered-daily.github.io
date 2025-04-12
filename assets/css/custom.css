@@ -19,3 +19,11 @@ body {}
 .RSS_button:hover {
   background-color: #5B051C; 
 }
+
+.artic:link {
+  color: #86072A;
+}
+
+.artic:hover {
+  color: #5B051C;
+}
