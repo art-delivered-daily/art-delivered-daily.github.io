@@ -20,10 +20,10 @@ body {}
   background-color: #5B051C; 
 }
 
-.artic {
+a.artic:link {
   color: #B50938;
 }
 
-.artic:hover {
+a.artic:hover {
   color: #86072A;
 }
