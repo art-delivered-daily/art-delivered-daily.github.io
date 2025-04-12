@@ -3,13 +3,17 @@ title: "Categories"
 layout: default
 permalink: "/categories.html"
 ---
-<div class="sidebar-section">
-    <h5><span>Explore by Category</span></h5>
-    <div class="after-post-tags"">
-      {% for category in site.categories %}
-      <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
-      {% endfor %}
+<div class="rounded mb-5 hero">
+  <div class="row align-items-center justify-content-between">
+    <div style="text-align:left">
+        <h5><span>Explore by Category</span></h5>
+        <div class="after-post-tags"">
+          {% for category in site.categories %}
+          <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
+          {% endfor %}
+        </div>
     </div>
+  </div>
 </div>
 
 {% for category in site.categories %}
