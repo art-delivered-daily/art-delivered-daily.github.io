@@ -3,9 +3,7 @@
         <h5><span>Artwork Type</span></h5>
         <div class="after-post-tags">
         {% for type in site.categories %}
-          <ul class='tags'>
-              <a href="{{ site.baseurl }}/categories#{{ type[0] | slugify }}">{{ type[0] }}</a>
-          </ul>
+        <a href="{{ site.baseurl }}/categories#{{ type[0] | slugify }}" class="badge badge-light">{{ type[0] }}</a>
         {% endfor %}
         </div>
     </div>
