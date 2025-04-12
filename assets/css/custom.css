@@ -31,12 +31,12 @@ a.artic:hover {
 .btn-primary {
   background-color: #86BBD8 !important;
   border: none !important;
-  color: black !important;
+  color: #000000 !important;
 }
 
 .btn-primary:hover {
   background-color: #4597C3 !important;
   border: none !important;
-  color: black !important;
+  color: #000000 !important;
 }
     
