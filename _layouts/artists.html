@@ -4,11 +4,11 @@ layout: default
 permalink: "/artists.html"
 ---
 {% for artist in site.tags %}
-<a href="#{{ artist[0] | slugify }}" class="badge badge-pill badge-warning" style="font-size: 16px">{{ artist[0] }}</a>
+<a href="#{{ artist[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ artist[0] }}</a>
 {% endfor %}
 
 {% for artist in site.tags %}
-<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ artist[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">By "{{ artist[0] }}"</span></h4>
+<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ artist[0] | slugify }}"><span class="text-capitalize small font-weight-bold">By "{{ artist[0] }}"</span></h4>
 <div class="row">
 {% assign pages_list = artist[1] %}
 {% for post in pages_list %}
