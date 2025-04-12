@@ -24,15 +24,6 @@ background: '/img/bg-index.jpg'
 </div>
 {% endif %}
 
-<div class="sidebar-section">
-    <h5><span>View by Category</span></h5>
-    <div class="after-post-tags" style="text-align: center">
-    {% for type in site.categories %}
-    <a href="{{ site.baseurl }}/categories#{{ type[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ type[0] }}</a>
-    {% endfor %}
-    </div>
-</div>
-
 <!-- Featured
 ================================================== -->
 <section class="row">
