@@ -3,8 +3,15 @@ layout: page
 title: Archive
 permalink: /archive
 ---
+<div class="rounded mb-5 hero" style="background: #BFACC8">
+  <div class="row align-items-center justify-content-between">
+    <div style="text-align:left">
+      <h2 class="font-weight-bold mb-4 serif-font">Explore the Archive</h2>
+      <p>Below is a complete archive of daily art reverse chronologically:</p>
+    </div>
+  </div>
+</div>
 
-Here is a complete archive of daily art reverse chronologically:
 <ul>
   {% for post in site.posts %}
     {% if post.artist %}
