@@ -1,17 +1,18 @@
 ---
 layout: default
 ---
-<!-- Post Featured Image -->
-{% if page.image %}
-<div class="text-center mx-auto mb-5">
-  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+<div class="rounded mb-5 hero" style="background: #79C471">
+  <div class="row align-items-center justify-content-between">
+    <div style="text-align:left">
+      <h2 class="font-weight-bold mb-4 serif-font">Explore the Archive</h2>
+          {% for category in site.categories %}
+          <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
+          {% endfor %}
+    </div>
+  </div>
 </div>
-{% endif %}
-<!-- End Featured Image -->
 
 <div class="col-sm-12">
-
-
   <div class="article-post serif-font">
     {{content}}
   </div>
