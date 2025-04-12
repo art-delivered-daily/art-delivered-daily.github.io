@@ -1,9 +1,15 @@
 <div class="sidebar sticky-top">        
     <div class="sidebar-section">
-        <h5><span>Artwork Type</span></h5>
+        <h5><span>Artwork Categories</span></h5>
         <div class="after-post-tags" style="text-align: center">
         {% for type in site.categories %}
         <a href="{{ site.baseurl }}/categories#{{ type[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 14px">{{ type[0] }}</a>
+        {% endfor %}
+        </div>
+        <h5><span>Artists</span></h5>
+        <div class="after-post-tags" style="text-align: center">
+        {% for artist in site.tags %}
+        <a href="{{ site.baseurl }}/categories#{{ type[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 14px">{{ artist[0] }}</a>
         {% endfor %}
         </div>
     </div>
