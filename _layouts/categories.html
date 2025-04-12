@@ -3,9 +3,14 @@ title: "Categories"
 layout: default
 permalink: "/categories.html"
 ---
-{% for category in site.categories %}
-<a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
-{% endfor %}
+<div class="sidebar-section">
+    <h5><span>Explore by Category</span></h5>
+    <div class="after-post-tags"">
+      {% for category in site.categories %}
+      <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
+      {% endfor %}
+    </div>
+</div>
 
 {% for category in site.categories %}
 <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | slugify }}"><span class="text-capitalize small font-weight-bold">In "{{ category[0] }}"</span></h4>
