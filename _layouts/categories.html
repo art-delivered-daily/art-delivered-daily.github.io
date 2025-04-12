@@ -4,7 +4,7 @@ layout: default
 permalink: "/categories.html"
 ---
 {% for category in site.categories %}
-<a href="{{ site.baseurl }}/categories#{{ type[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
+<a href="{{ #{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
 {% endfor %}
 
 {% for category in site.categories %}
