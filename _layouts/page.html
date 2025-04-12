@@ -5,9 +5,6 @@ layout: default
   <div class="row align-items-center justify-content-between">
     <div style="text-align:left">
       <h2 class="font-weight-bold mb-4 serif-font">Explore the Archive</h2>
-          {% for category in site.categories %}
-          <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ category[0] }}</a>
-          {% endfor %}
     </div>
   </div>
 </div>
