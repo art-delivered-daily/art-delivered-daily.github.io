@@ -9,11 +9,11 @@ Here is a complete archive of daily art reverse chronologically:
   {% for post in site.posts %}
     {% if post.artist %}
     <li>
-      {{ post.date | date: "%Y-%m-%d" }}: <a href="{{ post.url }}">{{ post.artist }}</a> 
+      {{ post.date | date: "%Y-%m-%d" }}: <a href="{{ post.url }}">{{ post.artist }} ({{ post.category[0] }})</a> 
     </li>
     {% else %}
     <li>
-      {{ post.date | date: "%Y-%m-%d" }}: <a href="{{ post.url }}">Unknown Artist</a> 
+      {{ post.date | date: "%Y-%m-%d" }}: <a href="{{ post.url }}">Unknown Artist ({{ post.category[0] }})</a> 
     </li>
     {% endif %}
   {% endfor %}
