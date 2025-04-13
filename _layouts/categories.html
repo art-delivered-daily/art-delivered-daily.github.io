@@ -8,7 +8,7 @@ permalink: "/categories.html"
     <div style="text-align:left">
       <h2 class="font-weight-bold mb-4 serif-font">Explore by Category</h2>
           {% for category in site.categories %}
-          <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px"><span class="text-capitalize small>{{ category[0] }}</span></a>
+          <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px"><span class="text-capitalize small">{{ category[0] }}</span></a>
           {% endfor %}
     </div>
   </div>
