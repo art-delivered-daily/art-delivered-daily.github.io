@@ -8,14 +8,14 @@ permalink: "/categories.html"
     <div style="text-align:left">
       <h2 class="font-weight-bold mb-4 serif-font">Explore by Category</h2>
           {% for category in site.categories %}
-          <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px"><span class="text-capitalize small font-weight-bold">{{ category[0] }}</span></a>
+          <a href="#{{ category[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px"><span class="text-capitalize font-weight-bold">{{ category[0] }}</span></a>
           {% endfor %}
     </div>
   </div>
 </div>
 
 {% for category in site.categories %}
-<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | slugify }}"><span class="text-capitalize small font-weight-bold">{{ category[0] }}</span></h4>
+<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | slugify }}"><span class="text-capitalize font-weight-bold">{{ category[0] }}</span></h4>
 <div class="row">
 {% assign pages_list = category[1] %}
 {% for post in pages_list %}
