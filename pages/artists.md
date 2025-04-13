@@ -4,7 +4,7 @@ title: Artists
 permalink: /artists/
 ---
 <ul>
-  {% assign sortedArtists = site.posts | sort: 'artist' %}
+  {% assign sortedArtists = site.posts | if post.artist | sort: 'artist' %}
   {% for post in sortedArtists %}
     <li>
       {{ post.artist }}: <a href="{{ post.url }}">{{ post.artTitle }}</a>
