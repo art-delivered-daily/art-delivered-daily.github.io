@@ -6,8 +6,8 @@ permalink: "https://art-delivered-daily.github.io"
 logo: 
 favicon: 'assets/images/favicon.ico'
 paginate: 30
-locale: en_us
-lang: en_us
+locale: en-us
+lang: en-us
 feed_items: 30
 feed_update_period: daily
 feed_update_frequency: 1
