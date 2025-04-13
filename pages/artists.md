@@ -7,7 +7,7 @@ permalink: /artists/
   {% assign sortedArtists = site.posts | sort: 'artist' %}
   {% for post in sortedArtists %}
     <li>
-      {{ post.artist }}: <a href="{{ post.url }}">{{ post.artTitle }}</a> ({{ post.date | date: "%Y-%m-%d" }})
+      {{ post.artist }}: <a href="{{ post.url }}">{{ post.artTitle }}</a>
     </li>
   {% endfor %}
 </ul>
