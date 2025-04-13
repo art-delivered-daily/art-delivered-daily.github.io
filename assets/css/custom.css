@@ -5,11 +5,11 @@ Just customize your theme here.
 
 body {}
 
-.artic a:link {
+a.artic:link {
   color: #B50938 !important;
 }
 
-.artic a:hover {
+a.artic:hover {
   color: #86072A !important;
 }
 
