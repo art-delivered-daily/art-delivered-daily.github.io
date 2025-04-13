@@ -1,1 +1,1 @@
-Forked from the Affiliates Jekyll Theme
+A website that delivers art daily to your RSS feed.  Powered by the [Art Institute of Chicago API](https://api.artic.edu/docs/).  Art Delivered Daily has no official affiliation with the Art Institute of Chicago. 
