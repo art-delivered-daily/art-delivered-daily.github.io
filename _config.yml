@@ -8,7 +8,7 @@ favicon: 'assets/images/favicon.ico'
 paginate: 30
 locale: en-us
 lang: en-us
-feed_items: 30
+feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 markdown: kramdown
