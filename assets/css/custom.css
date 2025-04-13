@@ -5,27 +5,12 @@ Just customize your theme here.
 
 body {}
 
-.RSS_button {
-  background-color: #86072A; 
-  border: none;
-  color: white;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 3px;
-  transition-duration: 0.2s;
-  padding: 11px 11px;
-}
-
-.RSS_button:hover {
-  background-color: #5B051C; 
-}
-
 a.artic:link {
-  color: #B50938;
+  color: #B50938 !important;
 }
 
 a.artic:hover {
-  color: #86072A;
+  color: #86072A !important;
 }
 
 .btn-primary {
@@ -37,6 +22,19 @@ a.artic:hover {
 
 .btn-primary:hover {
   background-color: #4597C3 !important;
+  border: none !important;
+  color: #000000 !important;
+}
+
+.btn-dark {
+  background-color: #79C471 !important;
+  border: none !important;
+  color: #000000 !important;
+  font-weight: 600;
+}
+
+.btn-dark:hover {
+  background-color: #4EA445 !important;
   border: none !important;
   color: #000000 !important;
 }
