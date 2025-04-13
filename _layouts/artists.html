@@ -1,14 +1,14 @@
 ---
-title: "Artists"
+title: "Styles"
 layout: default
-permalink: "/artists.html"
+permalink: "/styles.html"
 ---
 <div class="rounded mb-5 hero" style="background: #86BBD8">
   <div class="row align-items-center justify-content-between">
     <div style="text-align:left">
-      <h2 class="font-weight-bold mb-4 serif-font">Explore by Artist</h2>
-        {% for artist in site.tags %}
-        <a href="#{{ artist[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ artist[0] }}</a>
+      <h2 class="font-weight-bold mb-4 serif-font">Explore by Style</h2>
+        {% for style in site.tags %}
+        <a href="#{{ style[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px">{{ style[0] }}</a>
         {% endfor %}
     </div>
   </div>
