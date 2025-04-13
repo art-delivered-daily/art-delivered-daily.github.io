@@ -7,7 +7,7 @@ permalink: "/styles.html"
   <div class="row align-items-center justify-content-between">
     <div style="text-align:left">
       <h2 class="font-weight-bold mb-4 serif-font">Explore by Style</h2>
-        {% assign sortedTags = site.tags | sort %}
+        {% assign sortedTags = site.tags | sort.natural %}
         {% for style in sortedTags %}
         <a href="#{{ style[0] | slugify }}" class="badge badge-pill badge-light" style="font-size: 16px"><span class="text-capitalize font-weight-bold">{{ style[0] }}</span></a>
         {% endfor %}
