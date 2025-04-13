@@ -5,6 +5,10 @@ Just customize your theme here.
 
 body {}
 
+a.artic {
+  color: #B50938 !important;
+}
+
 a.artic:link {
   color: #B50938 !important;
 }
