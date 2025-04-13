@@ -15,7 +15,7 @@ permalink: "/styles.html"
 </div>
 
 {% for style in site.tags %}
-<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ style[0] | slugify }}"><span class="text-capitalize small font-weight-bold">{{ style[0] }}</span></h4>
+<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ style[0] | slugify }}"><span class="text-capitalize font-weight-bold">{{ style[0] }}</span></h4>
 <div class="row">
 {% assign pages_list = style[1] %}
 {% for post in pages_list %}
