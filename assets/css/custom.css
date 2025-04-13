@@ -5,11 +5,11 @@ Just customize your theme here.
 
 body {}
 
-a.artic:link {
+.artic a:link {
   color: #B50938 !important;
 }
 
-a.artic:hover {
+.artic a:hover {
   color: #86072A !important;
 }
 
@@ -17,7 +17,7 @@ a.artic:hover {
   background-color: #86BBD8 !important;
   border: none !important;
   color: #000000 !important;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .btn-primary:hover {
@@ -30,11 +30,24 @@ a.artic:hover {
   background-color: #79C471 !important;
   border: none !important;
   color: #000000 !important;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .btn-dark:hover {
   background-color: #4EA445 !important;
+  border: none !important;
+  color: #000000 !important;
+}
+
+.btn-secondary {
+  background-color: #BFACC8 !important;
+  border: none !important;
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.btn-secondary:hover {
+  background-color: #9475A3 !important;
   border: none !important;
   color: #000000 !important;
 }
