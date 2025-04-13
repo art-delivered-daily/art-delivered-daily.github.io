@@ -14,7 +14,8 @@ permalink: "/categories.html"
   </div>
 </div>
 
-{% for category in site.categories %}
+{% assign sortedCats = site.categories | sort %}
+{% for category in sortedCats %}
 <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | slugify }}"><span class="text-capitalize font-weight-bold">{{ category[0] }}</span></h4>
 <div class="row">
 {% assign pages_list = category[1] %}
