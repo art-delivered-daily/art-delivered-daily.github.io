@@ -24,6 +24,10 @@ ganalytics: UA-113961478-1
 social:
   email: art.delivered.daily@gmail.com
 
+# Feed
+feed:
+  icon: 'assets/images/favicon-32x32.png'
+
 # Plugins
 plugins: 
 - jekyll-paginate
