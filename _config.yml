@@ -1,6 +1,6 @@
 title: "Art Delivered Daily"
 email: art.delivered.daily@gmail.com
-timezone: UTC
+timezone: America/New_York
 baseurl: "https://art-delivered-daily.github.io"
 permalink: "https://art-delivered-daily.github.io"
 logo: 
@@ -8,7 +8,7 @@ favicon: 'assets/images/favicon.ico'
 paginate: 30
 locale: en_us
 lang: en_us
-feed_items: 10
+feed_items: 30
 feed_update_period: daily
 feed_update_frequency: 1
 markdown: kramdown
