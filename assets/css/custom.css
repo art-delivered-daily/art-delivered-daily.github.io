@@ -56,7 +56,15 @@ a.artic:hover {
   color: #000000 !important;
 }
 
-.bottom-nav:hover {
+a.bnav {
+  color: #B50938 !important;
+}
+
+a.bnav:link {
+  color: #B50938 !important;
+}
+
+a.bnav:hover {
+  color: #86072A !important;
   font-weight: bold;
-  color: #000000;
 }
