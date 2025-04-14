@@ -15,6 +15,7 @@ a.artic:link {
 
 a.artic:hover {
   color: #86072A !important;
+  text-decoration: underline;
 }
 
 .btn-primary {
@@ -66,5 +67,5 @@ a.bnav:link {
 
 a.bnav:hover {
   color: #86072A !important;
-  font-weight: bold;
+  text-decoration: underline;
 }
