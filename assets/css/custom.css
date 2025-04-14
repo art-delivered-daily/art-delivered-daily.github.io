@@ -17,14 +17,6 @@ a.artic:hover {
   color: #86072A !important;
 }
 
-a.artic:focus {
-  text-decoration: underline overline !important;
-}
-
-a.artic:active{
-  text-decoration: underline overline !important;
-}
-
 .btn-primary {
   background-color: #86BBD8 !important;
   border: none !important;
