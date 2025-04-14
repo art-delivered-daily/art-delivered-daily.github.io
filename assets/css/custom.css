@@ -69,3 +69,8 @@ a.bnav:hover {
   color: #86072A !important;
   text-decoration: underline;
 }
+
+a.bnav:active {
+  color: #008000 !important;
+  text-decoration: underline;
+}
