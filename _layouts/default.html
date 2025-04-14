@@ -79,13 +79,13 @@ gtag('config', '{{site.ganalytics}}');
   <ul class="p-0 mb-1 small">
     {% for item in site.data.menus.footermenu %}
     <li>
-      <a href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+      <a class="artic" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
     </li>
     {% endfor %}
     </ul>
     <div class="copyright small">
        <b>Disclaimer</b>: Art Delivered Daily has no official affiliation with the Art Institute of Chicago. <br>
-        <b>Contact</b>: If you have any questions or comments, please send me an email 
+        <b>Contact</b>: If you have any questions or comments, please send me an email at <a class="artic" href="mailto:art.delivered.daily@gmail.com">art.delivered.daily@gmail.com</a>.
     </div>
 </footer>
 
