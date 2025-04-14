@@ -18,11 +18,11 @@ a.artic:hover {
 }
 
 a.artic:focus {
-  color: #86072A !important;
+  text-decoration: underline overline !important;
 }
 
 a.artic:active{
-  text-decoration: underline !important;
+  text-decoration: underline overline !important;
 }
 
 .btn-primary {
