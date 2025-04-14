@@ -17,6 +17,10 @@ a.artic:hover {
   color: #86072A !important;
 }
 
+a.artic:focus {
+  color: #86072A !important;
+}
+
 a.artic:active{
   text-decoration: underline !important;
 }
