@@ -79,7 +79,7 @@ gtag('config', '{{site.ganalytics}}');
   <ul class="p-0 mb-1 small">
     {% for item in site.data.menus.footermenu %}
     <li>
-      <a class="artic" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+      <a class="bottom-nav" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
     </li>
     {% endfor %}
     </ul>
