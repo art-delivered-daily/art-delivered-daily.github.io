@@ -55,4 +55,7 @@ a.artic:hover {
   border: none !important;
   color: #000000 !important;
 }
-    
+
+.nav-link.active {
+  text-decoration: underline;
+}
