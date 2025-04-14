@@ -56,6 +56,6 @@ a.artic:hover {
   color: #000000 !important;
 }
 
-.nav-link.active {
+.nav-link:active {
   text-decoration: underline;
 }
