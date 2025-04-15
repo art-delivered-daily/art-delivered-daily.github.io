@@ -80,7 +80,7 @@ gtag('config', '{{site.ganalytics}}');
     {% for item in site.data.menus.footermenu %}
     <li>
       <a 
-          {% if page.url == /item.url %} class = "bnav active" {% else %} class="bnav" {% endif %} href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+          {% if page.url == '/categories/' %} class = "bnav active" {% else %} class="bnav" {% endif %} href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
     </li>
     {% endfor %}
     </ul>
