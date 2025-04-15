@@ -79,7 +79,11 @@ gtag('config', '{{site.ganalytics}}');
   <ul class="p-0 mb-1 small">
     {% for item in site.data.menus.footermenu %}
     <li>
-      <a {% assign currentItem = '/' | append: item.url %} {% if page.url == currentItem  %} class = "current_nav" {% else %} class="artic" {% endif %} href="{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+    {% if item.title != 'Contact' %}    
+        <a {% assign currentItem = '/' | append: item.url %} {% if page.url == currentItem  %} class = "current_nav" {% else %} class="artic" {% endif %} href="{{site.baseurl}}/{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+    {% else %}
+        <a {class="artic" href="{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+    {% endif %}
     </li>
     {% endfor %}
     </ul>
