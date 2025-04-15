@@ -82,14 +82,13 @@ gtag('config', '{{site.ganalytics}}');
     {% if item.title != 'Contact' %}    
         <a {% assign currentItem = '/' | append: item.url %} {% if page.url == currentItem  %} class = "current_nav" {% else %} class="artic" {% endif %} href="{{site.baseurl}}/{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
     {% else %}
-        <a {class="artic" href="{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+        <a class="artic" href="{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
     {% endif %}
     </li>
     {% endfor %}
     </ul>
     <div class="copyright small">
-       <b>Disclaimer</b>: Art Delivered Daily has no official affiliation with the Art Institute of Chicago. <br>
-        <b>Contact</b>: If you have any questions or comments, please send me an email at <a class="artic" href="mailto:art.delivered.daily@gmail.com">art.delivered.daily@gmail.com</a>.
+       <b>Disclaimer</b>: Art Delivered Daily has no official affiliation with the Art Institute of Chicago.
     </div>
 </footer>
 
