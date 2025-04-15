@@ -6,19 +6,19 @@ topmenu:
   external: false
 
 - title: Categories
-  url: "categories"
+  url: "categories/"
   external: false
 
 - title: Styles
-  url: "styles"
+  url: "styles/"
   external: false
 
 - title: Artists
-  url: "artists"
+  url: "artists/"
   external: false
 
 - title: Archive
-  url: "archive"
+  url: "archive/"
   external: false
 
 # Footer Menu
@@ -28,13 +28,13 @@ footermenu:
   url: ""
 
 - title: Categories
-  url: "categories"
+  url: "categories/"
 
 - title: Styles
-  url: "styles"
+  url: "styles/"
 
 - title: Artists
-  url: "artists"
+  url: "artists/"
 
 - title: Archive
-  url: "archive"
+  url: "archive/"
