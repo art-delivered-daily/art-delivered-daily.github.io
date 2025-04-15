@@ -25,16 +25,16 @@ topmenu:
 footermenu:
 
 - title: Home
-  url: ""
+  url: "/"
 
 - title: Categories
-  url: "categories/"
+  url: "/categories/"
 
 - title: Styles
-  url: "styles/"
+  url: "/styles/"
 
 - title: Artists
-  url: "artists/"
+  url: "/artists/"
 
 - title: Archive
-  url: "archive/"
+  url: "/archive/"
