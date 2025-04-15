@@ -38,3 +38,6 @@ footermenu:
 
 - title: Archive
   url: "archive/"
+
+- title: Contact
+  url: "mailto:art.delivered.daily@gmail.com"
