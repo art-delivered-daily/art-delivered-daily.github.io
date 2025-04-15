@@ -53,10 +53,10 @@ gtag('config', '{{site.ganalytics}}');
           </button>
           
           <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto font-weight-bold d-flex align-items-center">
+            <ul class="navbar-nav ml-auto d-flex align-items-center">                
               {% for item in site.data.menus.topmenu %}
               <li class="nav-item">
-                <a class="nav-link px-3 artic" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+                <a {% assign currentItem = '/' | append: item.url %} {% if page.url == currentItem  %} class = "nav-link px-3 current_nav" {% else %} class="nav-link px-3 artic" {% endif %} href="{{site.baseurl}}/{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
               </li>
               {% endfor %}
             </ul>
